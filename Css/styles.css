@@ -5,9 +5,6 @@ body{
 h1{
   font-size: 6rem;
 }
-/* #top1{
-  margin-bottom: 5%;
-} */
 .navbar-brand{
   font-weight: 700;
   color:white;
@@ -15,41 +12,32 @@ h1{
 .nav-link{
   font-weight: 700;
 }
-.top-background1{
+#top1{
   background-color:#413c69;
-  height:600px;
-  width:100%;
 }
-.top-text1{
-  display:inline-block;
-  width:40%;
-  position: relative;
-  top:90px;
-  right:30%;
+#top1 .col-lg-5{
   color:white;
+  font-size: 6rem;
 }
 .crown{
   font-size: 3.5rem;
   position: relative;
-  /* bottom:10px; */
   color:#ee4540;
 }
 .top-text-comp1{
   font-size: 3rem;
 }
 .top-background-image1{
-  display:inline-block;
-  height:540px;
-  width:870px;
-  position: relative;
-  bottom:310px;
-  left:19%;
+  height:83%;
+  width:100%;
   opacity:0.4;
+  position:relative;
+  top:20px;
 }
 .top-background-image-text1{
-  margin-left: 50%;
   position: relative;
-  bottom:700px;
+  left: 11%;
+  bottom:57%;
   font-weight: bolder;
   font-size: 2rem;
   color:white;
@@ -72,7 +60,6 @@ h1{
   }
 
 #Photo-Gallery{
-  /* background-color:#c6cbef; */
     background-color:white;
   padding-top: 5% 5% 2%;
 }
@@ -162,9 +149,18 @@ h1{
 }
 #Contacts{
   background-color:#293462;
-  width:1530px;
-  height:650px;
-  margin-top: 145px;
+  margin-top: 5%;
+}
+#Contacts .col-lg-7::before{
+  background-image: url("https://images.unsplash.com/photo-1434596922112-19c563067271?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+  opacity:0.4;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background-size:cover;
+    content:"";
 }
 .contacts-app-head{
   font-size: 2.5rem;
@@ -176,48 +172,30 @@ h1{
   color:white;
   font-size: 1.5rem;
   line-height: 2.0;
-  /* margin-bottom: 30px; */
-}
-.Contacts-app{
-  display:inline-block;
-  position:relative;
-  right:30%;
-  margin:9% 0 0;
 }
 .custom4{
   margin-left: 20px;
 }
-.background2{
-  height:580px;
-  width:870px;
-  position:relative;
-  left:18.5%;
-  bottom:370px;
-  opacity:0.3;
-}
-.remove{
-  height:0;
-}
 .Contacts-form-form{
-  /* background-color:#2c003e;  */
   position:relative;
-  bottom:900px;
-  left:300px;
+  bottom:0.5%;
+  left:5%;
 }
 .form-label-head{
   font-family:"Merriweather" ;
   font-size: 1.5rem;
   color:#46b3e6;
-  margin-right:7px;
+  margin-right:2%;
 }
 .form-label{
   font-family:"Merriweather" ;
 }
 .bt-custom{
-  margin-top: 25px;
+  margin-top: 4.5%;
 }
 #footer{
-  margin-top:10%;
+  padding-top:8.5%;
+  margin-bottom: 5%;
 }
 .footer-shift{
   margin-left: 10px;
